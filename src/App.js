@@ -9,9 +9,9 @@ function App() {
     <main>
       <section className='container'>
         <h3 className='container__header'>{people.length} birthdays today</h3>
-        <List people={people}/>
-        {people.length !== 0 && 
-        <button onClick={()  => setPeople([])}>Clear All</button>
+        <List people={people} />
+        {people.length !== 0 &&
+          <button onClick={() => setPeople([])}>Clear All</button>
         }
       </section>
     </main>
