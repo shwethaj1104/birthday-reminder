@@ -1,4 +1,4 @@
-# Birthday Reminder App
+# Birthday Reminder Application
 
 Application developed on React.js
 
